@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@app/*": ["./src/app/*"],
+      "@common/*": ["./src/common/*"],
+      "@config/*": ["./src/config/*"],
+      "@db/*": ["./src/db/*"],
+      "@decorators/*": ["./src/decorators/*"],
+      "@doc/*": ["./src/doc/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@filter/*": ["./src/filter/*"],
+      "@guard/*": ["./src/guard/*"],
+      "@helper/*": ["./src/helper/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@strategy/*": ["./src/strategy/*"],
+      "@test/*": ["./test/*"]
+    }
+  }
+}
