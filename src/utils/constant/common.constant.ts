@@ -1,0 +1,15 @@
+export const commonResponse = {
+  notFound: (val: string) => `${val} not found`,
+  success: 'your request was successfully executed',
+  bad_request: 'bad request',
+  internal_server_error: 'internal server error',
+  invalid_token: 'invalid token',
+  token_not_found: 'Token Not Found...!',
+  token_expired: 'Your Token Is Expired....!',
+  invalid_ObjectId: 'Invalid objectId',
+  insufficientParameters: 'Insufficient parameters.',
+  noContentFound: 'Your request is successfully executed but Content Not Found',
+  noContent: 'No Content....!',
+  unauthorized_request: 'You are not authorized to access the request.',
+  invalidThisId: (id: string) => `Invalid This ${id}...`,
+};
